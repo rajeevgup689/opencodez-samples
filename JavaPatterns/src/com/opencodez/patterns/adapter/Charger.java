@@ -7,7 +7,7 @@ public class Charger {
 	private Adapter adapter;
 	
 	public void charge() {
-		adapter.conntect();
+		adapter.connect();
 		System.out.println("Charging...");
 	}
 

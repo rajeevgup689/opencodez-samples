@@ -7,11 +7,9 @@ public class AdapterDemo {
 		Charger charger = new Charger();
 		
 		charger.setAdapter(new UKAdapter());
-		
 		charger.charge();
 		
 		charger.setAdapter(new GermanyAdapter());
-		
 		charger.charge();
 
 	}
