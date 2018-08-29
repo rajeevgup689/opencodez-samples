@@ -32,6 +32,7 @@ public class ClientCustomer {
 		manager.setCommand(cmdValidateOrder);
 		manager.validateOrder();
 		
+		//prepare Order
 		CommandCookOrder cmdCookOrder = new CommandCookOrder(myOrder);
 		
 		Cook cook = new Cook();
@@ -39,6 +40,7 @@ public class ClientCustomer {
 		cook.prepareOrder();
 		
 
+		//Serve Order
 		CommandServeOrder cmdServeOrder = new CommandServeOrder(myOrder);
 		
 		waiter.setCommand(cmdServeOrder);

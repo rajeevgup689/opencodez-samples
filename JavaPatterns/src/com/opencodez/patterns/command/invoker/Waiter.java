@@ -1,7 +1,7 @@
 package com.opencodez.patterns.command.invoker;
 
 //Invoker
-public class Waiter  extends Invoker  {
+public class Waiter extends Invoker  {
 	
 	@Override
 	public void invokeCommand() {
